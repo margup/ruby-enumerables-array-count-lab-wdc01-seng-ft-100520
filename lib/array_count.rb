@@ -1,6 +1,7 @@
 def count_strings(array)
   array.count do | num | 
-     num.include?
+    if num == Integer
+     
       num += 1 
     end
   end
