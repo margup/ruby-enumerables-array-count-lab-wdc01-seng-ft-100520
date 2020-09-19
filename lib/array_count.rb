@@ -5,6 +5,7 @@ def count_strings(array)
       num += 1 
     end
   end
+ 
 end
   # Return the total number of strings in the provided array using the count enumerable
 
