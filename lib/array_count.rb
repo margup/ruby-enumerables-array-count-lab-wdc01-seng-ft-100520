@@ -3,12 +3,12 @@ def count_strings(array)
   while num < array.length do
    
     if array[num] == Integer
+  end
      
       num += 1 
     end
   end
  
-end
   # Return the total number of strings in the provided array using the count enumerable
 
 def count_empty_strings(array)
