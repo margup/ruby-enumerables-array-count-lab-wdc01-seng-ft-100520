@@ -1,5 +1,6 @@
 def count_strings(array)
-  array.flatten!.count do | num | 
+  num = 0 
+   
     if num == Integer
      
       num += 1 
