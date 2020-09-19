@@ -1,5 +1,6 @@
 def count_strings(array)
   num = 0 
+  while
    
     if num == Integer
      
