@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |num| 
-    if num.class == String
+    num.is_a? String
       num += 1 
   end
  end
