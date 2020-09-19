@@ -2,7 +2,7 @@ def count_strings(array)
   num = 0 
   while num < array.length do
    
-    if num == Integer
+    if array[num] == Integer
      
       num += 1 
     end
